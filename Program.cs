@@ -20,11 +20,17 @@ string? input = Console.ReadLine();
 
 bool terminal = int.TryParse(input, out int result);
 
-if (terminal == true)
+if(!terminal)
 {
-    Console.WriteLine($"入力された番号：{result}");
+    Console.WriteLine("数字を入力してください");
 }
 else
 {
-    Console.WriteLine("数字を入力してください");
+    foreach (var product in products)
+    {if(result == product.Id)
+        {
+            Console.WriteLine(product.Name);
+            Console.WriteLine(product.Price);
+        }
+    }
 }
