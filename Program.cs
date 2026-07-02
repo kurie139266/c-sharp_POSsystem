@@ -13,3 +13,18 @@ foreach (var product in products)
 {
     Console.WriteLine($"{product.Id}. {product.Name} {product.Price}円");
 }
+
+Console.WriteLine("商品番号を入力してください:");
+
+string? input = Console.ReadLine();
+
+bool terminal = int.TryParse(input, out int result);
+
+if (terminal == true)
+{
+    Console.WriteLine($"入力された番号：{result}");
+}
+else
+{
+    Console.WriteLine("数字を入力してください");
+}
