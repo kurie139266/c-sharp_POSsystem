@@ -1,0 +1,14 @@
+C:\Projects\POSSystem\bin\Debug\net9.0\POSSystem.exe
+C:\Projects\POSSystem\bin\Debug\net9.0\POSSystem.deps.json
+C:\Projects\POSSystem\bin\Debug\net9.0\POSSystem.runtimeconfig.json
+C:\Projects\POSSystem\bin\Debug\net9.0\POSSystem.dll
+C:\Projects\POSSystem\bin\Debug\net9.0\POSSystem.pdb
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.AssemblyInfoInputs.cache
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.AssemblyInfo.cs
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.csproj.CoreCompileInputs.cache
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.dll
+C:\Projects\POSSystem\obj\Debug\net9.0\refint\POSSystem.dll
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.pdb
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.genruntimeconfig.cache
+C:\Projects\POSSystem\obj\Debug\net9.0\ref\POSSystem.dll
