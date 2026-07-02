@@ -1,6 +1,5 @@
 # c-sharp_POSsystem
-c#でPOSSystemを作ってみた
-c#全く触ってないのでゆったり作ります
+c#でPOSSystemを作ってみた  c#全く触ってないのでゆったり作ります
 
 ## 機能
 
