@@ -7,6 +7,9 @@ List<Product> products = new()
     new Product { Id = 3, Name = "お茶", Price = 180 }
 };
 
+List<Product> cart = new();
+
+
 Console.WriteLine("===== POSシステム =====");
 
 foreach (var product in products)
@@ -14,31 +17,45 @@ foreach (var product in products)
     Console.WriteLine($"{product.Id}. {product.Name} {product.Price}円");
 }
 
-Console.WriteLine("商品番号を入力してください:");
-
-string? input = Console.ReadLine();
-
-bool terminal = int.TryParse(input, out int result);
-
-bool found = false;
-
-if(!terminal)
+while (true)
 {
-    Console.WriteLine("数字を入力してください");
-}
-else
-{
-    foreach (var product in products)
+    Console.WriteLine("商品番号を入力してください:");
+
+    string? input = Console.ReadLine();
+
+    bool terminal = int.TryParse(input, out int result);
+    bool found = false;
+    if(!terminal)
     {
-        if(result == product.Id)
-        {
-            found = true;
-            Console.WriteLine(product.Name);
-            Console.WriteLine(product.Price);
-        }
+        Console.WriteLine("数字を入力してください");
     }
-        if(!found)
+    else
     {
-        Console.WriteLine("商品は存在しません");
+        if(result == 0)
+        {
+        break;
+        }
+        foreach (var product in products)
+        {
+            if(result == product.Id)
+            {
+                int total = 0;
+                found = true;
+                cart.Add(product);
+                Console.WriteLine($"{product.Name} をカートに追加しました");
+                Console.WriteLine("現在のカート");
+                Console.WriteLine("----------------");
+                foreach (var item in cart)
+                {
+                    Console.WriteLine($"{item.Name} {item.Price}円");
+                    total += item.Price;
+                    Console.WriteLine($"現在のカート合計金額：{total}円");
+                }
+            }
+        }
+            if(!found)
+        {
+            Console.WriteLine("商品は存在しません");
+        }
     }
 }
