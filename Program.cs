@@ -20,6 +20,8 @@ string? input = Console.ReadLine();
 
 bool terminal = int.TryParse(input, out int result);
 
+bool found = false;
+
 if(!terminal)
 {
     Console.WriteLine("数字を入力してください");
@@ -27,10 +29,16 @@ if(!terminal)
 else
 {
     foreach (var product in products)
-    {if(result == product.Id)
+    {
+        if(result == product.Id)
         {
+            found = true;
             Console.WriteLine(product.Name);
             Console.WriteLine(product.Price);
         }
+    }
+        if(!found)
+    {
+        Console.WriteLine("商品は存在しません");
     }
 }

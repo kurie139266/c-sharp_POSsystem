@@ -8,24 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\komag\\.nuget\\packages\\": {}
+    "C:\\Users\\ht25a064\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\komag\\c-sharp_POSsystem\\POSSystem.csproj",
+      "projectUniqueName": "C:\\Projects\\POSSystem\\POSSystem.csproj",
       "projectName": "POSSystem",
-      "projectPath": "C:\\Users\\komag\\c-sharp_POSsystem\\POSSystem.csproj",
-      "packagesPath": "C:\\Users\\komag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\komag\\c-sharp_POSsystem\\obj\\",
+      "projectPath": "C:\\Projects\\POSSystem\\POSSystem.csproj",
+      "packagesPath": "C:\\Users\\ht25a064\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\POSSystem\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\komag\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ht25a064\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -65,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

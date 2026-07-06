@@ -27,3 +27,4 @@ C:\Users\komag\c-sharp_POSsystem\obj\Debug\net9.0\refint\POSSystem.dll
 C:\Users\komag\c-sharp_POSsystem\obj\Debug\net9.0\POSSystem.pdb
 C:\Users\komag\c-sharp_POSsystem\obj\Debug\net9.0\POSSystem.genruntimeconfig.cache
 C:\Users\komag\c-sharp_POSsystem\obj\Debug\net9.0\ref\POSSystem.dll
+C:\Projects\POSSystem\obj\Debug\net9.0\POSSystem.sourcelink.json
